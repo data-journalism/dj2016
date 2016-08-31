@@ -4,7 +4,7 @@
 
 | week          | topic         | note  |
 | ------------- |:-------------:| -----:|
-|1              | 数据新闻导论             |    https://github.com/data-journalism/djclass2015   |
+|1              | 数据新闻导论             |    https://github.com/data-journalism/dj2016   |
 |2              | 课程简介+github介绍	    |    第一次作业    |
 |3              | R语言简介              |     第二次作业  |
 |4              | 数据新闻：未来、现在、过去	     |  第三次作业   |
