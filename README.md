@@ -1,6 +1,6 @@
-# djclass2015的课程公告
+# dj2016的课程公告
 
-你好，这是南京大学新闻传播学院数据新闻2015课程的Github页面。
+你好，这是南京大学新闻传播学院数据新闻2016课程的Github页面。
 
 | week          | topic         | note  |
 | ------------- |:-------------:| -----:|
@@ -23,14 +23,14 @@
 |17             | 传播网络分析: gephi的使用               |       |
 |18             | 学生作品展示	              |       |
 
-#请选课的同学watch本页面
+# 请选课的同学watch本页面
 点击页面右上角watch按钮即可，这样你可以收到最新的issues的邮件提醒。
 
 或者点击本链接：https://github.com/data-journalism/djclass2015/subscription
 
-#本周作业信息发布
+# 本周作业信息发布
 
-[https://github.com/data-journalism/djclass2015/wiki/%E4%BD%9C%E4%B8%9A](https://github.com/data-journalism/djclass2015/wiki/%E4%BD%9C%E4%B8%9A)
+[https://github.com/data-journalism/djclass2015/wiki/](https://github.com/data-journalism/djclass2015/wiki/)
 
 ####注意事项
 
@@ -56,9 +56,9 @@ Or the Youtube playlist: https://www.youtube.com/playlist?list=PLAwxTw4SYaPmtf5v
 
 ####JavaScript全栈教程－Nodejs－fs （分享自 @廖雪峰） [网页链接](http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)
 
-####datacamp https://www.datacamp.com/
+#### datacamp https://www.datacamp.com/
 
-####中国数据新闻工作坊培训手册
+#### 中国数据新闻工作坊培训手册
 [网页] [http://djchina.org/2015/09/01/china-data-journalism-training-content/](http://djchina.org/2015/09/01/china-data-journalism-training-content/)
 
 [视频] [http://i.youku.com/u/UMzIwNzg5OTAyMA==/videos](http://i.youku.com/u/UMzIwNzg5OTAyMA==/videos)
@@ -67,14 +67,14 @@ Or the Youtube playlist: https://www.youtube.com/playlist?list=PLAwxTw4SYaPmtf5v
 by Paul Bradshaw, Alberto Cairo, Steve Doig, Simon Rogers, Nicolas Kayser-Bril http://learno.net/classroom/doing-journalism-with-data-first-steps-skills-and-tools/
 
 
-####datajournalismhandbook
+#### datajournalismhandbook
 [http://datajournalismhandbook.org/1.0/en/](http://datajournalismhandbook.org/1.0/en/)
 
 ![](http://datajournalismhandbook.org/1.0/en/img/cover_print.png)
 
 #想要提问，点下面！
 
-[https://github.com/data-journalism/djclass2015/issues](https://github.com/data-journalism/djclass2015/issues)
+[https://github.com/data-journalism/dj2016/issues](https://github.com/data-journalism/dj2016/issues)
 
 
 
