@@ -26,11 +26,11 @@
 # 请选课的同学watch本页面
 点击页面右上角watch按钮即可，这样你可以收到最新的issues的邮件提醒。
 
-或者点击本链接：https://github.com/data-journalism/djclass2015/subscription
+或者点击本链接：https://github.com/data-journalism/dj2016/subscription
 
 # 本周作业信息发布
 
-[https://github.com/data-journalism/djclass2015/wiki/](https://github.com/data-journalism/djclass2015/wiki/)
+[https://github.com/data-journalism/dj2016/wiki/](https://github.com/data-journalism/dj2016/wiki/)
 
 ####注意事项
 
@@ -38,9 +38,9 @@
 
 https://guides.github.com/features/mastering-markdown/
 
-###关于两次微议题、阅读+presentation、软件工具分享次序的安排
+###关于数据新闻案例分享、阅读+presentation、软件工具分享次序的安排
 
-[https://github.com/data-journalism/djclass2015/wiki/%E5%B0%8F%E7%BB%84%E4%BB%BB%E5%8A%A1%E6%8E%92%E5%BA%8F](https://github.com/data-journalism/djclass2015/wiki/%E5%B0%8F%E7%BB%84%E4%BB%BB%E5%8A%A1%E6%8E%92%E5%BA%8F)
+[https://github.com/data-journalism/dj2016/wiki/](https://github.com/data-journalism/dj2016/wiki/)
 
 
 # 资源推荐
@@ -72,7 +72,7 @@ by Paul Bradshaw, Alberto Cairo, Steve Doig, Simon Rogers, Nicolas Kayser-Bril h
 
 ![](http://datajournalismhandbook.org/1.0/en/img/cover_print.png)
 
-#想要提问，点下面！
+# 想要提问，点下面！
 
 [https://github.com/data-journalism/dj2016/issues](https://github.com/data-journalism/dj2016/issues)
 
