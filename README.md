@@ -2,6 +2,16 @@
 
 你好，这是南京大学新闻传播学院数据新闻2016课程的Github页面。
 
+# 请选课的同学watch本页面
+点击页面右上角watch按钮即可，这样你可以收到最新的issues的邮件提醒。
+
+或者点击本链接：https://github.com/data-journalism/dj2016/subscription
+
+# 本周作业信息发布
+
+[https://github.com/data-journalism/dj2016/wiki/Homework](https://github.com/data-journalism/dj2016/wiki/Homework)
+
+
 | week          | topic         | note  |
 | ------------- |:-------------:| -----:|
 |1              | 数据新闻导论             |    https://github.com/data-journalism/dj2016   |
@@ -23,16 +33,10 @@
 |17             | 传播网络分析: gephi的使用               |       |
 |18             | 学生作品展示	              |       |
 
-# 请选课的同学watch本页面
-点击页面右上角watch按钮即可，这样你可以收到最新的issues的邮件提醒。
 
-或者点击本链接：https://github.com/data-journalism/dj2016/subscription
 
-# 本周作业信息发布
 
-[https://github.com/data-journalism/dj2016/wiki/](https://github.com/data-journalism/dj2016/wiki/)
-
-####注意事项
+#### 注意事项
 
 不要提交word文档，以markdown文件提交，markdown文件的结尾是 `.md` 。关于markdown的格式介绍见:
 
