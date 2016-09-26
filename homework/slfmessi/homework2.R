@@ -2,7 +2,7 @@
 # slfmessi
 # 2016-09-26
 
-## Chapter 1 - Using R##
+## Chapter 1 - Using R ##
 
 ### 1.1 Expressions ###
 
@@ -50,6 +50,7 @@ help(rep)
 
 list.files()
 
+# Comment the two lines below when compiling notebook.
 source("bottle1.R")
 
 source("bottle2.R")
@@ -156,7 +157,7 @@ help(sum)
 
 sum(a, na.rm = TRUE)
 
-## Chapter 3 - Matrices##
+## Chapter 3 - Matrices ##
 
 ### 3.1 Matrices ###
 
@@ -218,6 +219,7 @@ limbs <- c(4, 3, 4, 3, 2, 4, 4, 4)
 names(limbs) <- c('One-Eye', 'Peg-Leg', 'Smitty', 'Hook', 'Scooter', 'Dan', 'Mikey', 'Blackbeard')
 mean(limbs)
 
+
 barplot(limbs)
 
 abline(h = mean(limbs))
@@ -228,6 +230,7 @@ limbs <- c(4, 3, 4, 3, 2, 4, 4, 14)
 names(limbs) <- c('One-Eye', 'Peg-Leg', 'Smitty', 'Hook',
                   'Scooter', 'Dan', 'Mikey', 'Davy Jones')
 mean(limbs)
+
 barplot(limbs)
 abline(h = mean(limbs))
 
@@ -247,3 +250,4 @@ deviation <- sd(pounds)
 abline(h = meanValue + deviation)
 
 abline(h = meanValue - deviation)
+
