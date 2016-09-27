@@ -48,12 +48,11 @@ help(rep)
 
 ### 1.6 Files ###
 
-list.files()
+list.files("./assets/homework2/")
 
-# Comment the two lines below when compiling notebook.
-source("bottle1.R")
+source("./assets/homework2/bottle1.R")
 
-source("bottle2.R")
+source("./assets/homework2/bottle2.R")
 
 ## Chapter 2 - Vectors ##
 
@@ -250,4 +249,3 @@ deviation <- sd(pounds)
 abline(h = meanValue + deviation)
 
 abline(h = meanValue - deviation)
-
