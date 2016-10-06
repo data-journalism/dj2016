@@ -1,0 +1,30 @@
+list.files()
+"Port","Population","Worth"
+"Cartagena",35000,10000
+"Porto Bello",49000,15000
+"Havana",140000,50000
+"Panama City",105000,35000
+ read.csv("targets.csv")
+Port Population Worth
+1   Cartagena      35000 10000
+2 Porto Bello      49000 15000
+3      Havana     140000 50000
+4 Panama City     105000 35000
+Port         Infantry
+Porto Bello  700
+Cartagena    500
+Panama City  1500
+Havana       2000
+ read.table("infantry.txt", sep="\t")
+           V1       V2
+1        City Infantry
+2 Porto Bello      700
+3   Cartagena      500
+4 Panama City     1500
+5      Havana     2000
+read.table("infantry.txt", sep="\t", header=TRUE)
+         City Infantry
+1 Porto Bello      700
+2   Cartagena      500
+3 Panama City     1500
+4      Havana     2000
