@@ -42,7 +42,13 @@
 
 https://guides.github.com/features/mastering-markdown/
 
-###关于数据新闻案例分享、阅读+presentation、软件工具分享次序的安排
+#### 更多关于使用Markdown进行写作的资料
+- 献给写作者的 Markdown 新手指南：http://www.jianshu.com/p/q81RER
+- 怎样引导新手使用 Markdown？：https://www.zhihu.com/question/20409634
+- 这篇文末有常用的Markdown编辑器：http://www.markdown.cn
+- 一个在线的Markdown编辑器：https://www.zybuluo.com/mdeditor
+
+#### 关于数据新闻案例分享、阅读+presentation、软件工具分享次序的安排
 
 [https://github.com/data-journalism/dj2016/wiki/](https://github.com/data-journalism/dj2016/wiki/)
 
