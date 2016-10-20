@@ -17,11 +17,10 @@
 |1              | **数据新闻导论**             |    https://github.com/data-journalism/dj2016   |
 |2              | 课程简介+github介绍	    |    第一次作业：分组    |
 |3              | 数据新闻的未来、现在、过去	     |  第三次作业   |
-|4              | **数据科学的编程工具**：R语言简介        |       |
+|4              | **数据获取**	                       |  第五次作业：选题提案        |
 |5              | 数据科学的编程工具：Python语言简介        |       |
-|6              | **数据获取**	                       |  第五次作业：选题提案        |
-|7              | python数据抓取简介               |  第六次作业：python抓取天气数据      |
-|8              | **数据分析简介**	                   |  第七次作业：ggplot2练习    |
+|6              | python数据抓取简介               |  第六次作业：python抓取天气数据      |
+|7              | **数据分析简介**	                   |  第七次作业：ggplot2练习    |
 |9              | **数据可视化**：概念、案例和方法     |       |
 |10             | 计算媒介：以processing为例 （上）|  https://vimeo.com/channels/introcompmedia/    |
 |11             | 计算媒介：以processing为例 （上）|  第四次作业     |
@@ -42,7 +41,13 @@
 
 https://guides.github.com/features/mastering-markdown/
 
-###关于数据新闻案例分享、阅读+presentation、软件工具分享次序的安排
+#### 更多关于使用Markdown进行写作的资料
+- 献给写作者的 Markdown 新手指南：http://www.jianshu.com/p/q81RER
+- 怎样引导新手使用 Markdown？：https://www.zhihu.com/question/20409634
+- 这篇文末有常用的Markdown编辑器：http://www.markdown.cn
+- 一个在线的Markdown编辑器：https://www.zybuluo.com/mdeditor
+
+#### 关于数据新闻案例分享、阅读+presentation、软件工具分享次序的安排
 
 [https://github.com/data-journalism/dj2016/wiki/](https://github.com/data-journalism/dj2016/wiki/)
 
