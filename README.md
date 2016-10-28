@@ -2,15 +2,6 @@
 
 你好，这是南京大学新闻传播学院数据新闻2016课程的Github页面。
 
-# 请选课的同学watch本页面
-点击页面右上角watch按钮即可，这样你可以收到最新的issues的邮件提醒。
-
-或者点击本链接：https://github.com/data-journalism/dj2016/subscription
-
-# 本周作业信息发布
-
-[https://github.com/data-journalism/dj2016/wiki/Homework](https://github.com/data-journalism/dj2016/wiki/Homework)
-
 
 | week          | topic         | note  |
 | ------------- |:-------------:| -----:|
@@ -34,6 +25,15 @@
 |18             | 学生作品展示	              |       |
 
 
+
+# 请选课的同学watch本页面
+点击页面右上角watch按钮即可，这样你可以收到最新的issues的邮件提醒。
+
+或者点击本链接：https://github.com/data-journalism/dj2016/subscription
+
+# 本周作业信息发布
+
+[https://github.com/data-journalism/dj2016/wiki/Homework](https://github.com/data-journalism/dj2016/wiki/Homework)
 
 
 #### 注意事项
@@ -73,7 +73,7 @@ Or the Youtube playlist: https://www.youtube.com/playlist?list=PLAwxTw4SYaPmtf5v
 
 [视频] [http://i.youku.com/u/UMzIwNzg5OTAyMA==/videos](http://i.youku.com/u/UMzIwNzg5OTAyMA==/videos)
 
-# Doing Journalism with Data: First Steps, Skills and Tools 
+#### Doing Journalism with Data: First Steps, Skills and Tools 
 by Paul Bradshaw, Alberto Cairo, Steve Doig, Simon Rogers, Nicolas Kayser-Bril http://learno.net/classroom/doing-journalism-with-data-first-steps-skills-and-tools/
 
 
