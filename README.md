@@ -54,29 +54,14 @@ https://guides.github.com/features/mastering-markdown/
 
 
 # 资源推荐
-
-#### Adobe免费正版PhotoShop CS2
-http://soft.zol.com.cn/346/3467942.html
-#### JavaScript Basics Udacity Open Course
-Check out the course here: https://www.udacity.com/course/ud804
-Or the Youtube playlist: https://www.youtube.com/playlist?list=PLAwxTw4SYaPmtf5v3hefG5seVynUtV9T8
-
-####JavaScript入门 http://www.imooc.com/learn/36?from=itblog
-①.JavaScript入门与进阶:O网页链接、O网页链接 ②.DOM操作:O网页链接 ③.DOM事件:O网页链接 ④.JS动画:O网页链接 ⑤.JS实践之倒计时效果与信息滚动效果:O网页链接、O网页链接
-
-####JavaScript全栈教程－Nodejs－fs （分享自 @廖雪峰） [网页链接](http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)
-
-#### datacamp https://www.datacamp.com/
-
-#### 中国数据新闻工作坊培训手册
-[网页] [http://djchina.org/2015/09/01/china-data-journalism-training-content/](http://djchina.org/2015/09/01/china-data-journalism-training-content/)
-
-#### Doing Journalism with Data: First Steps, Skills and Tools 
-by Paul Bradshaw, Alberto Cairo, Steve Doig, Simon Rogers, Nicolas Kayser-Bril http://learno.net/classroom/doing-journalism-with-data-first-steps-skills-and-tools/
-
-
-#### datajournalismhandbook
-[http://datajournalismhandbook.org/1.0/en/](http://datajournalismhandbook.org/1.0/en/)
+- Adobe免费正版PhotoShop CS2 http://soft.zol.com.cn/346/3467942.html
+- JavaScript Basics Udacity Open Course https://www.udacity.com/course/ud804 Or the Youtube playlist: https://www.youtube.com/playlist?list=PLAwxTw4SYaPmtf5v3hefG5seVynUtV9T8
+- JavaScript入门 http://www.imooc.com/learn/36?from=itblog
+- JavaScript全栈教程－Nodejs－fs （分享自 @廖雪峰） [网页链接](http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)
+- Datacamp https://www.datacamp.com/
+- 中国数据新闻工作坊培训手册 [http://djchina.org/2015/09/01/china-data-journalism-training-content/](http://djchina.org/2015/09/01/china-data-journalism-training-content/)
+- Doing Journalism with Data: First Steps, Skills and Tools  by Paul Bradshaw, Alberto Cairo, Steve Doig, Simon Rogers, Nicolas Kayser-Bril http://learno.net/classroom/doing-journalism-with-data-first-steps-skills-and-tools/
+- datajournalismhandbook [http://datajournalismhandbook.org/1.0/en/](http://datajournalismhandbook.org/1.0/en/)
 
 # 想要提问，点下面！
 
