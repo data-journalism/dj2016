@@ -78,8 +78,6 @@ by Paul Bradshaw, Alberto Cairo, Steve Doig, Simon Rogers, Nicolas Kayser-Bril h
 #### datajournalismhandbook
 [http://datajournalismhandbook.org/1.0/en/](http://datajournalismhandbook.org/1.0/en/)
 
-![](http://datajournalismhandbook.org/1.0/en/img/cover_print.png)
-
 # 想要提问，点下面！
 
 [https://github.com/data-journalism/dj2016/issues](https://github.com/data-journalism/dj2016/issues)
