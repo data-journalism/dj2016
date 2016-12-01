@@ -31,6 +31,9 @@
 
 或者点击本链接：https://github.com/data-journalism/dj2016/subscription
 
+# 每周签到情况
+https://data-journalism.github.io/dj2016/attendance.htm
+
 # 本周作业信息发布
 
 [https://github.com/data-journalism/dj2016/wiki/Homework](https://github.com/data-journalism/dj2016/wiki/Homework)
