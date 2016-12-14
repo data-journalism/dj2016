@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="echarts.js"></script>
+</head>
+<body>
+    <!-- 第一个图表 -->
+    <div id="first" style="width: 600px;height:400px;"></div>
+    <!-- 第二个图表 -->
+    <div id="second" style="width: 600px;height:400px;"></div>
+    <!-- 第三个图表 -->
+    <div id="third" style="width: 600px;height:400px;"></div>
+    <!-- 第四个图表 -->
+    <div id="fourth" style="width: 600px;height:400px;"></div>
+    <!-- 第五个图表 -->
+    <div id="fifth" style="width: 600px;height:400px;"></div>
+</body>
+</html>
+<script type="text/javascript">
+// ------配置图表1，各个性化图表配置方法详见官网-----
+    var firstChart = echarts.init(document.getElementById("first"));
+    var option = {
+      title: {
+                  text: '2016lpl夏 个人'
+              },
+        tooltip : {
+            trigger: 'axis',
+            axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+                type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+            }
+        },
+        legend: {
+            data: ['总助攻', '总击杀','总死亡','场均补刀','场均参团率']
+        },
+        grid: {
+            left: '3%',
+            right: '4%',
+            bottom: '3%',
+            containLabel: true
+        },
+        xAxis:  {
+            type: 'value'
+        },
+        yAxis: {
+            type: 'category',
+            data: ['uzi','deft','clearlove','mlxg','scout','meiko','mata']
+        },
+        series: [
+            {
+                name: '总助攻',
+                type: 'bar',
+                stack: '总数',
+                label: {
+                    normal: {
+                        show: true,
+                        position: 'insideRight'
+                    }
+                },
+                data: [324, 355, 392, 424, 282, 575, 534]
+            },
+            {
+                name: '总击杀',
+                type: 'bar',
+                stack: '总数',
+                label: {
+                    normal: {
+                        show: true,
+                        position: 'insideRight'
+                    }
+                },
+                data: [261, 256, 176, 175, 196, 41, 37]
+            },
+            {
+                name: '总死亡',
+                type: 'bar',
+                stack: '总数',
+                label: {
+                    normal: {
+                        show: true,
+                        position: 'insideRight'
+                    }
+                },
+                data: [95, 103, 70, 136, 106, 129, 156]
+            },
+            {
+                name: '场均补刀',
+                type: 'bar',
+                stack: '总数',
+                label: {
+                    normal: {
+                        show: true,
+                        position: 'insideRight'
+                    }
+                },
+                data: [359, 294, 163, 169, 300, 48, 38]
+            },
+        ]
+    };
+    firstChart.setOption(option);
+
+// -----配置图表2-----
+    var secondChart = echarts.init(document.getElementById("second"));
+    option = {
+    title : {
+        text: '2016lpl夏季赛战队战绩',
+        subtext: '战队：edg',
+        x:'center'
+    },
+    tooltip : {
+        trigger: 'item',
+        formatter: "{a} <br/>{b} : {c} ({d}%)"
+    },
+    legend: {
+        orient: 'vertical',
+        left: 'left',
+        data: ['胜利','失败']
+    },
+    series : [
+        {
+            name: '率',
+            type: 'pie',
+            radius : '55%',
+            center: ['50%', '60%'],
+            data:[
+                {value:38, name:'胜利'},
+                {value:7, name:'失败'}
+            ],
+            itemStyle: {
+                emphasis: {
+                    shadowBlur: 10,
+                    shadowOffsetX: 0,
+                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                }
+            }
+        }
+    ]
+};
+
+    secondChart.setOption(option);
+
+    // -----配置图表3-----
+        var thirdChart = echarts.init(document.getElementById("third"));
+        option = {
+            title: {
+                text: '选手对比图'
+            },
+            tooltip: {},
+            legend: {
+                data: ['uzi', 'deft']
+            },
+            radar: {
+                // shape: 'circle',
+                indicator: [
+                   { name: '场均补刀', max: 400},
+                   { name: '总击杀数', max: 300},
+                   { name: '总死亡数', max: 150},
+                   { name: '总助攻数', max: 400},
+                   { name: 'kda', max:10},
+                   { name: 'mvp次数', max: 15}
+                ]
+            },
+            series: [{
+                name: 'uzi vs deft',
+                type: 'radar',
+                // areaStyle: {normal: {}},
+                data : [
+                    {
+                        value : [359, 261, 95, 324, 6.1, 11],
+                        name : 'uzi'
+                    },
+                     {
+                        value : [294, 256, 103, 355, 5.9, 11],
+                        name : 'deft'
+                    }
+                ]
+            }]
+        };
+
+     thirdChart.setOption(option);
+
+     // -----配置图表4-----
+         var fourthChart = echarts.init(document.getElementById("fourth"));
+         option = {
+             title: {
+                 text: '参团率',
+                 subtext: '数据自英雄联盟官网'
+             },
+             tooltip: {
+                 trigger: 'item',
+                 formatter: "{a} <br/>{b} : {c}%"
+             },
+             toolbox: {
+                 feature: {
+                     dataView: {readOnly: false},
+                     restore: {},
+                     saveAsImage: {}
+                 }
+             },
+             legend: {
+                 data: ['uzi','deft','clearlove','mlxg','scout']
+             },
+             calculable: true,
+             series: [
+                 {
+                     name:'选用图',
+                     type:'funnel',
+                     left: '10%',
+                     top: 60,
+                     //x2: 80,
+                     bottom: 60,
+                     width: '80%',
+                     // height: {totalHeight} - y - y2,
+                     min: 0,
+                     max: 100,
+                     minSize: '0%',
+                     maxSize: '100%',
+                     sort: 'descending',
+                     gap: 2,
+                     label: {
+                         normal: {
+                             show: true,
+                             position: 'inside'
+                         },
+                         emphasis: {
+                             textStyle: {
+                                 fontSize: 20
+                             }
+                         }
+                     },
+                     labelLine: {
+                         normal: {
+                             length: 10,
+                             lineStyle: {
+                                 width: 1,
+                                 type: 'solid'
+                             }
+                         }
+                     },
+                     itemStyle: {
+                         normal: {
+                             borderColor: '#fff',
+                             borderWidth: 1
+                         }
+                     },
+                     data: [
+                         {value: 64.4, name: 'scout'},
+                         {value: 67.6, name: 'clearlove'},
+                         {value: 70.9, name: 'uzi'},
+                         {value: 73.9, name: 'deft'},
+                         {value: 74.5, name: 'mlxg'}
+                     ]
+                 }
+             ]
+         };
+
+      fourthChart.setOption(option);
+
+      // -----配置图表5-----
+          var fifthChart = echarts.init(document.getElementById("fifth"));
+          option = {
+    title: {
+        text: '南京未来一周气温变化',
+        subtext: '2016.12.12-2016.12.18'
+    },
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data:['最高气温','最低气温']
+    },
+    toolbox: {
+        show: true,
+        feature: {
+            dataZoom: {
+                yAxisIndex: 'none'
+            },
+            dataView: {readOnly: false},
+            magicType: {type: ['line', 'bar']},
+            restore: {},
+            saveAsImage: {}
+        }
+    },
+    xAxis:  {
+        type: 'category',
+        boundaryGap: false,
+        data: ['周一','周二','周三','周四','周五','周六','周日']
+    },
+    yAxis: {
+        type: 'value',
+        axisLabel: {
+            formatter: '{value} °C'
+        }
+    },
+    series: [
+        {
+            name:'最高气温',
+            type:'line',
+            data:[16, 11, 7, 8, 10, 12, 15],
+
+            markLine: {
+                data: [
+                    {type: 'average', name: '平均值'}
+                ]
+            }
+        },
+        {
+            name:'最低气温',
+            type:'line',
+            data:[8, 1, -2, -1, -1, 1, 3],
+            
+            markLine: {
+                data: [
+                    {type: 'average', name: '平均值'},
+                    [{
+                        symbol: 'none',
+                        x: '90%',
+                        yAxis: 'max'
+                    }, {
+                        symbol: 'circle',
+                        label: {
+                            normal: {
+                                position: 'start',
+                                formatter: '最大值'
+                            }
+                        },
+                        type: 'max',
+                        name: '最高点'
+                    }]
+                ]
+            }
+        }
+    ]
+};
+
+
+      fifthChart.setOption(option);
+
+
+</script>
+</body>
+</html>
