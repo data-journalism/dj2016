@@ -1,0 +1,65 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="echarts.min.js"></script>
+</head>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="width:800px;height:600px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+
+        // 指定图表的配置项和数据
+
+        var option = {
+            title: {
+            text: '2015年1－12月入境外国游客人数',
+            subtext: '数据来自国家统计局'
+    },
+    tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+            type: 'shadow'
+        }
+    },
+    legend: {
+        data: ['男', '女']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    xAxis: {
+        type: 'value',
+        boundaryGap: [0, 0.01]
+    },
+    yAxis: {
+        type: 'category',
+        data: ['亚洲','美洲','欧洲','大洋','非洲','总计(万人)']
+    },
+    series: [
+        {
+            name: '男',
+            type: 'bar',
+            data: [1089.47, 193.02, 309.98,47.12, 41.45, 1681.19]
+        },
+        {
+            name: '女',
+            type: 'bar',
+            data: [572.53, 118.51, 179.16, 30.52, 16.57, 917.35]
+        }
+    ]
+};
+// 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
+</body>
+</html>
