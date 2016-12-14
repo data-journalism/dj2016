@@ -1,0 +1,342 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="echarts.min.js"></script>
+</head>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="width:800px;height:600px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+
+        // 指定图表的配置项和数据
+
+        var option = {
+            title: {
+            text: '2015年1－12月入境外国游客人数',
+            subtext: '数据来自国家统计局'
+    },
+    tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+            type: 'shadow'
+        }
+    },
+    legend: {
+        data: ['男', '女']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    xAxis: {
+        type: 'value',
+        boundaryGap: [0, 0.01]
+    },
+    yAxis: {
+        type: 'category',
+        data: ['亚洲','美洲','欧洲','大洋','非洲','总计(万人)']
+    },
+    series: [
+        {
+            name: '男',
+            type: 'bar',
+            data: [1089.47, 193.02, 309.98,47.12, 41.45, 1681.19]
+        },
+        {
+            name: '女',
+            type: 'bar',
+            data: [572.53, 118.51, 179.16, 30.52, 16.57, 917.35]
+        }
+    ]
+};
+// 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="echarts.min.js"></script>
+</head>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="width: 600px;height:400px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+
+        // 指定图表的配置项和数据
+        var option = {
+            title: {
+                text: '2015年1－12月入境外国游客人数'
+            },
+            tooltip: {},
+            legend: {
+                data:['万人']
+            },
+            xAxis: {
+                data: ["14岁以下","15-24岁","25-44岁","45-64岁","65岁以上"]
+            },
+            yAxis: {},
+            series: [{
+                name: '万人',
+                type: 'bar',
+                data: [101.43, 205.03, 1184.25, 949.76, 158.07]
+            }]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="echarts.min.js"></script>
+</head>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="width: 600px;height:400px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+var option = {
+    title: {
+        text: '2015年入境外国游客目的'
+    },
+    tooltip : {
+        trigger: 'axis'
+    },
+    legend: {
+        data:['会议/商务','观光休闲','探亲访友','服务员工','其他']
+    },
+    toolbox: {
+        feature: {
+            saveAsImage: {}
+        }
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    xAxis : [
+        {
+            type : 'category',
+            boundaryGap : false,
+            data : ['亚洲','美洲','欧洲','大洋','非洲']
+        }
+    ],
+    yAxis : [
+        {
+            type : 'value'
+        }
+    ],
+    series : [
+        {
+            name:'会议/商务',
+            type:'line',
+            stack: '总量',
+            areaStyle: {normal: {}},
+            data:[309.57, 53.63, 139.15, 14.20,21.08]
+        },
+        {
+            name:'观光休闲',
+            type:'line',
+            stack: '总量',
+            areaStyle: {normal: {}},
+            data:[526.02,107.68, 154.40, 23.41, 13.28]
+        },
+        {
+            name:'探亲访友',
+            type:'line',
+            stack: '总量',
+            areaStyle: {normal: {}},
+            data:[19.35, 36.94, 11.33, 11.64, 0.48]
+        },
+        {
+            name:'员工服务',
+            type:'line',
+            stack: '总量',
+            areaStyle: {normal: {}},
+            data:[256.50, 20.36, 62.96, 3.93, 5.92]
+        },
+        {
+            name:'其他',
+            type:'line',
+            stack: '总量',
+            label: {
+                normal: {
+                    show: true,
+                    position: 'top'
+                }
+            },
+            areaStyle: {normal: {}},
+            data:[550.56, 92.93, 121.30,24.46, 17.26]
+        }
+    ]
+};
+   myChart.setOption(option);
+    </script>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="echarts.min.js"></script>
+</head>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="width: 600px;height:400px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+
+        // 指定图表的配置项和数据
+        var option = {
+		 title: {
+                      text: '2015年来华旅游入境方式'
+					 
+				 },
+        tooltip: {
+        trigger: 'item',
+        formatter: "{a} <br/>{b}: {c} ({d}%)"
+    },
+    legend: {
+        orient: 'vertical',
+        x: 'left',
+        data:['船舶','飞机','火车','汽车','徒步']
+    },
+    series: [
+        {
+            name:'访问来源',
+            type:'pie',
+            radius: ['50%', '70%'],
+            avoidLabelOverlap: false,
+            label: {
+                normal: {
+                    show: false,
+                    position: 'center'
+                },
+                emphasis: {
+                    show: true,
+                    textStyle: {
+                        fontSize: '30',
+                        fontWeight: 'bold'
+                    }
+                }
+            },
+            labelLine: {
+                normal: {
+                    show: false
+                }
+            },
+            data:[
+                {value:454.04, name:'船舶'},
+                {value:2101.23, name:'飞机'},
+                {value:121.98, name:'火车'},
+                {value:2922.45, name:'汽车'},
+                {value:7782.34, name:'徒步'}
+            ]
+        }
+    ]
+};
+
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="echarts.min.js"></script>
+</head>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="width: 600px;height:400px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+var option = {
+    title: {
+        text: '2015年香港、澳门同胞来华旅游方式比较'
+    },
+    tooltip: {},
+    legend: {
+        data: ['香港同胞', '澳门同胞']
+    },
+    radar: {
+        // shape: 'circle',
+        indicator: [
+           { name: '船舶', max: 200},
+           { name: '飞机', max: 200},
+           { name: '火车', max: 80},
+           { name: '汽车', max: 3000},
+           { name: '徒步', max: 6000}
+          
+        ]
+    },
+    series: [{
+        name: '香港同胞vs澳门同胞',
+        type: 'radar',
+        // areaStyle: {normal: {}},
+        data : [
+            {
+                value : [112.23, 188.94, 73.91, 2397.99, 5171.74],
+                name : '香港同胞'
+            },
+             {
+                value : [10.93, 9.77, 0.29, 153.49, 2114.34],
+                name : '澳门同胞'
+            }
+        ]
+    }]
+};
+ // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
+</body>
+</html>
