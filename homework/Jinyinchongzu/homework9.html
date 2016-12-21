@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="echarts.js"></script>
+</head>
+<body>
+    <!-- 第一个图表 -->
+    <div id="first" style="width: 600px;height:400px;"></div>
+    <!-- 第二个图表 -->
+    <div id="second" style="width: 600px;height:400px;"></div>
+    <!-- 第三个图表 -->
+    <div id="third" style="width: 600px;height:400px;"></div>
+    <!-- 第四个图表 -->
+    <div id="fourth" style="width: 600px;height:400px;"></div>
+    <!-- 第五个图表 -->
+    <div id="fifth" style="width: 600px;height:400px;"></div>
+</body>
+</html>
+<script type="text/javascript">
+// ------配置图表1，各个性化图表配置方法详见官网-----
+// 指定图表的配置项和数据
+    var option = {
+        title: {
+            text: '科学社社团成员专业构成'
+        },
+        tooltip: {},
+        legend: {
+            data:['人数']
+        },
+        xAxis: {
+            data: ["数学","物理","化学","生物","天文"]
+        },
+        yAxis: {},
+        series: [{
+            name: '人数',
+            type: 'bar',
+            data: [15, 12, 11, 14, 6]
+        }]
+    };
+
+</script>
+</body>
+</html>
+
+// -----配置图表2-----
+myChart.setOption({
+series : [
+    {
+        name: '2016年大连二十四中生源区（市内四区）',
+        type: 'pie',
+        radius: '55%',
+        data:[
+            {value:150, name:'中山区'},
+            {value:100, name:'西岗区'},
+            {value:120, name:'沙河口区'},
+            {value:80, name:'甘井子区'},
+        ]
+    }
+]
+})
+
+    // -----配置图表3-----
+    option = {
+xAxis: {
+    type: 'value'
+},
+yAxis: {
+    type: 'value'
+},
+dataZoom: [
+    {   // 这个dataZoom组件，默认控制x轴。
+        type: 'slider', // 这个 dataZoom 组件是 slider 型 dataZoom 组件
+        start: 10,      // 左边在 10% 的位置。
+        end: 60         // 右边在 60% 的位置。
+    }
+],
+series: [
+    {
+        type: 'scatter', // 这是个『散点图』
+        itemStyle: {
+            normal: {
+                opacity: 0.8
+            }
+        },
+        symbolSize: function (val) {
+            return val[2] * 40;
+        },
+        data: [["14.616","7.241","0.896"],["3.958","5.701","0.955"],["2.768","8.971","0.669"],["9.051","9.710","0.171"],["14.046","4.182","0.536"],["12.295","1.429","0.962"],["4.417","8.167","0.113"],["0.492","4.771","0.785"],["7.632","2.605","0.645"],["14.242","5.042","0.368"]]
+    }
+]
+}
+     // -----配置图表4-----
+     myChart.setOption({
+     series : [
+         {
+             name: '2016年南京大学辽宁籍考生生源地',
+             type: 'pie',
+             radius: '55%',
+             data:[
+                 {value:10, name:'大连'},
+                 {value:8, name:'沈阳'},
+                 {value:6, name:'本溪'},
+                 {value:7, name:'鞍山'},
+                 {value:6, name:'营口'},
+                 {value:4, name:'朝阳'},
+                 {value:3, name:'铁岭'},
+
+             ]
+         }
+     ]
+     })
+
+      // -----配置图表5-----
+      var option = {
+          title: {
+              text: '南京大学新闻传播学院校园媒体人数'
+          },
+          tooltip: {},
+          legend: {
+              data:['人数']
+          },
+          xAxis: {
+              data: ["南大新传","新潮","新天地","新记者","南大网台NTV"]
+          },
+          yAxis: {},
+          series: [{
+              name: '人数',
+              type: 'bar',
+              data: [34, 27, 14, 52, 43]
+          }]
+      };
+
+      // 使用刚指定的配置项和数据显示图表。
+      myChart.setOption(option);
+  </script>
+  </body>
+  </html>
+
+      fifthChart.setOption(option);
+
+
+</script>
+</body>
+</html>
