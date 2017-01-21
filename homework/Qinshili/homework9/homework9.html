@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="echarts.min.js"></script>
+</head>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main-1" style="width: 600px;height:400px;"></div>
+ <div id="main-2" style="width: 600px;height:400px;"></div>
+ <div id="main-3" style="width: 600px;height:400px;"></div>
+ <div id="main-4" style="width: 600px;height:400px;"></div>
+ <div id="main-5" style="width: 600px;height:400px;"></div>
+ <div id="main-6" style="width: 600px;height:400px;"></div>
+    <script type="text/javascript">
+
+
+
+
+
+
+        // 1
+        var myChart1 = echarts.init(document.getElementById('main-1'));
+        var option1 = {
+            title: {
+                text: ''
+            },
+            tooltip: {},
+            legend: {
+                data:['人数']
+            },
+            xAxis: {
+                data: ["道教","伊斯兰教","基督教","印度教","佛教","无神论"]
+            },
+            yAxis: {},
+            series: [{
+                name: '人数',
+                type: 'bar',
+                data: [5, 20, 36, 10, 10, 20]
+            }]
+        };
+ 	 myChart1.setOption(option1);
+
+        // 2
+        var myChart2 = echarts.init(document.getElementById('main-2'));
+        var option2 = {
+            title: {
+                text: ''
+            },
+            tooltip: {},
+            legend: {
+                data:['人数']
+            },
+            xAxis: {
+                data: ["道教","伊斯兰教","基督教","印度教","佛教","无神论"]
+            },
+            yAxis: {},
+            series: [{
+                name: '人数',
+                type: 'pie',
+                data: [5, 20, 26, 22, 9, 20]
+            }]
+        };
+ 	 myChart2.setOption(option2);
+
+
+
+        // 3
+        var myChart3 = echarts.init(document.getElementById('main-3'));
+        var option3 = {
+            title: {
+                text: ''
+            },
+            tooltip: {},
+            legend: {
+                data:['人数']
+            },
+            xAxis: {
+                data: ["道教","伊斯兰教","基督教","印度教","佛教","无神论"]
+            },
+            yAxis: {},
+            series: [{
+                name: '人数',
+                type: 'line',
+                data:  [5, 20, 26, 22, 9, 20]
+            }]
+        };
+        myChart3.setOption(option3);
+
+
+
+
+
+        // 4
+        var myChart4 = echarts.init(document.getElementById('main-4'));
+        var option4 = {
+            title: {
+                text: ''
+            },
+            tooltip: {},
+            legend: {
+                data:['人数']
+            },
+            xAxis: {
+                data: ["道教","伊斯兰教","基督教","印度教","佛教","无神论"]
+            },
+            yAxis: {},
+            series: [{
+                name: '人数',
+                type: 'gauge',
+                data:  [5, 20, 26, 22, 9, 20]
+            }]
+        };
+        myChart4.setOption(option4);
+
+
+
+
+        // 5
+        var myChart5 = echarts.init(document.getElementById('main-5'));
+        var option5 = {
+            title: {
+                text: ''
+            },
+            tooltip: {},
+            legend: {
+                data:['人数']
+            },
+            xAxis: {
+                data: ["道教","伊斯兰教","基督教","印度教","佛教","无神论"]
+            },
+            yAxis: {},
+            series: [{
+                name: '人数',
+                type: 'scatter',
+                data:  [5, 20, 26, 22, 9, 20]
+            }]
+        };
+        myChart5.setOption(option5);
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,579 @@
+[9180:9180:0116/140450:ERROR:browser_main_loop.cc(260)] <unknown>: Couldn't register with accessibility bus: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+[9238:9238:0116/140542:ERROR:browser_main_loop.cc(260)] <unknown>: Couldn't register with accessibility bus: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+[9238:9238:0116/140543:ERROR:background_mode_manager_aura.cc(13)] Not implemented reached in virtual void BackgroundModeManager::EnableLaunchOnStartup(bool)
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+
+(google-chrome:9238): dconf-CRITICAL **: unable to create directory '/run/user/0/dconf': 权限不够.  dconf will not work properly.
+[9238:9269:0116/140640:ERROR:object_proxy.cc(583)] Failed to call method: org.gnome.SessionManager.Inhibit: object_path= /org/gnome/SessionManager: org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+[9238:9269:0116/140640:ERROR:power_save_blocker_x11.cc(334)] No response to Inhibit() request!
+[9238:9269:0116/141010:ERROR:object_proxy.cc(583)] Failed to call method: org.gnome.SessionManager.Uninhibit: object_path= /org/gnome/SessionManager: org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+[9238:9269:0116/141010:ERROR:power_save_blocker_x11.cc(406)] No response to Uninhibit() request!
+[   9877]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[   9880]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+file://a.html [1:2] Error in pseudo class or element. (Invalid token ":". Was expecting one of: <IDENT>, <FUNCTION_LANG>, <FUNCTION>.)
+file://a.html [1:2] Ignoring the whole rule.
+[9238:9273:0116/173103:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+[9238:9273:0116/191107:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -106
+[9238:9273:0116/191114:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -109
+[9238:9273:0116/191114:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -109
+[9238:9273:0116/191329:ERROR:connection_factory_impl.cc(367)] Failed to connect to MCS endpoint with error -118
+[728:728:0116/191526:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+[17545633]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[17545634]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;git 
+[17545642]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[17545734]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[17547210]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[17547210]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;git 
+[17550880]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[17550889]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[17555200]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[17555200]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;git 
+[17559103]  ERROR - llij.ide.plugins.PluginManager - null 
+java.lang.AssertionError
+	at com.jediterm.terminal.model.CharBuffer.<init>(CharBuffer.java:45)
+	at com.jediterm.terminal.ui.TerminalPanel$TerminalCursor.drawCursor(TerminalPanel.java:945)
+	at com.jediterm.terminal.ui.TerminalPanel.paintComponent(TerminalPanel.java:700)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at com.intellij.openapi.wm.impl.ToolWindowsPane.paintChildren(ToolWindowsPane.java:190)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1579)
+	at javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1502)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:831)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at com.intellij.ide.IdeEventQueue.a(IdeEventQueue.java:793)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:629)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:385)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+[17559110]  ERROR - llij.ide.plugins.PluginManager - PhpStorm 2016.2.1  Build #PS-162.1889.1 
+[17559111]  ERROR - llij.ide.plugins.PluginManager - JDK: 1.8.0_76-release 
+[17559111]  ERROR - llij.ide.plugins.PluginManager - VM: OpenJDK 64-Bit Server VM 
+[17559111]  ERROR - llij.ide.plugins.PluginManager - Vendor: JetBrains s.r.o 
+[17559111]  ERROR - llij.ide.plugins.PluginManager - OS: Linux 
+[17559111]  ERROR - llij.ide.plugins.PluginManager - Last Action: EditorBackSpace 
+[17559625]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;MERGE_MSG 
+[17560858]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..work/Qinshili 
+[17560865]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[17560879]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[17563452]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[17563453]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;git 
+[17569308]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[17569319]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[17706833]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[17706833]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;data 
+[17706834]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[17706849]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[17820791]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[17820792]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;git 
+[17820799]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[17820814]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[17823447]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[17823448]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;git 
+[17827453]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[17827476]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[17894593]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[17894594]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;git 
+[17894600]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[17894612]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[17896553]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[17896554]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;git 
+[17900266]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[17900280]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[9238:9269:0116/194409:ERROR:object_proxy.cc(583)] Failed to call method: org.gnome.SessionManager.Inhibit: object_path= /org/gnome/SessionManager: org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+[9238:9269:0116/194409:ERROR:power_save_blocker_x11.cc(334)] No response to Inhibit() request!
+[9238:9269:0116/194540:ERROR:object_proxy.cc(583)] Failed to call method: org.gnome.SessionManager.Inhibit: object_path= /org/gnome/SessionManager: org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+[9238:9269:0116/194540:ERROR:power_save_blocker_x11.cc(334)] No response to Inhibit() request!
+[9238:9269:0116/194627:ERROR:object_proxy.cc(583)] Failed to call method: org.gnome.SessionManager.Inhibit: object_path= /org/gnome/SessionManager: org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+[9238:9269:0116/194627:ERROR:power_save_blocker_x11.cc(334)] No response to Inhibit() request!
+[9238:9269:0116/194739:ERROR:object_proxy.cc(583)] Failed to call method: org.gnome.SessionManager.Uninhibit: object_path= /org/gnome/SessionManager: org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+[9238:9269:0116/194739:ERROR:power_save_blocker_x11.cc(406)] No response to Uninhibit() request!
+[9238:9269:0116/194739:ERROR:object_proxy.cc(583)] Failed to call method: org.gnome.SessionManager.Uninhibit: object_path= /org/gnome/SessionManager: org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+[9238:9269:0116/194739:ERROR:power_save_blocker_x11.cc(406)] No response to Uninhibit() request!
+[9238:9269:0116/194910:ERROR:object_proxy.cc(583)] Failed to call method: org.gnome.SessionManager.Uninhibit: object_path= /org/gnome/SessionManager: org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+[9238:9269:0116/194910:ERROR:power_save_blocker_x11.cc(406)] No response to Uninhibit() request!
+[18842034]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[18842036]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;git 
+[18842041]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[18842054]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[18850791]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[18850803]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;git 
+[18854534]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[18854546]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[21071441]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[21071442]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;xla 
+[21071451]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[21071464]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[21077102]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[21077103]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;xinput 
+[21077118]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[21077158]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[21083857]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[21083858]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;xinput 
+[21083862]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[21083879]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[9238:9515:0116/204108:ERROR:get_updates_processor.cc(244)] PostClientToServerMessage() failed during GetUpdates
+[22843431]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[22843432]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;chrome 
+[22843433]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[22843447]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[1191:1191:0116/210038:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+[9238:9269:0116/210044:ERROR:object_proxy.cc(583)] Failed to call method: org.gnome.SessionManager.Inhibit: object_path= /org/gnome/SessionManager: org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+[9238:9269:0116/210044:ERROR:power_save_blocker_x11.cc(334)] No response to Inhibit() request!
+[9238:9269:0116/210410:ERROR:object_proxy.cc(583)] Failed to call method: org.gnome.SessionManager.Uninhibit: object_path= /org/gnome/SessionManager: org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+[9238:9269:0116/210410:ERROR:power_save_blocker_x11.cc(406)] No response to Uninhibit() request!
+[1191:1191:0116/211337:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+[1191:1191:0116/211427:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+[24654144]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[24654145]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;git 
+[24654153]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[24654166]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[24655787]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[24655788]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;git 
+[24659352]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[24659367]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[24661457]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[24661458]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;git 
+[24665959]  ERROR - llij.ide.plugins.PluginManager - null 
+java.lang.AssertionError
+	at com.jediterm.terminal.model.CharBuffer.<init>(CharBuffer.java:45)
+	at com.jediterm.terminal.ui.TerminalPanel$TerminalCursor.drawCursor(TerminalPanel.java:945)
+	at com.jediterm.terminal.ui.TerminalPanel.paintComponent(TerminalPanel.java:700)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1579)
+	at javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1502)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:831)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at com.intellij.ide.IdeEventQueue.a(IdeEventQueue.java:793)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:629)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:385)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+[24665960]  ERROR - llij.ide.plugins.PluginManager - PhpStorm 2016.2.1  Build #PS-162.1889.1 
+[24665960]  ERROR - llij.ide.plugins.PluginManager - JDK: 1.8.0_76-release 
+[24665960]  ERROR - llij.ide.plugins.PluginManager - VM: OpenJDK 64-Bit Server VM 
+[24665960]  ERROR - llij.ide.plugins.PluginManager - Vendor: JetBrains s.r.o 
+[24665960]  ERROR - llij.ide.plugins.PluginManager - OS: Linux 
+[24665960]  ERROR - llij.ide.plugins.PluginManager - Last Action: EditorPaste 
+[24666318]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;MERGE_MSG 
+[24669915]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;/var 
+[24669919]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[24669931]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[24671529]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[24671529]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;git 
+[24675678]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[24675708]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[24676649]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[24676649]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;la 
+[24676651]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[24676673]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[24765169]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[24765169]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;git 
+[24765174]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[24765185]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[24767498]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[24767498]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;git 
+[24771729]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[24771741]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[24904625]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[24904625]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;git 
+[24904636]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[24904647]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[24906209]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004l
+bytes read                    :ESC[ 
+[24906209]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;git 
+[24909262]  ERROR - llij.ide.plugins.PluginManager - null 
+java.lang.AssertionError
+	at com.jediterm.terminal.model.CharBuffer.<init>(CharBuffer.java:45)
+	at com.jediterm.terminal.ui.TerminalPanel$TerminalCursor.drawCursor(TerminalPanel.java:945)
+	at com.jediterm.terminal.ui.TerminalPanel.paintComponent(TerminalPanel.java:700)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1579)
+	at javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1502)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:831)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at com.intellij.ide.IdeEventQueue.a(IdeEventQueue.java:793)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:629)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:385)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+[24909263]  ERROR - llij.ide.plugins.PluginManager - PhpStorm 2016.2.1  Build #PS-162.1889.1 
+[24909263]  ERROR - llij.ide.plugins.PluginManager - JDK: 1.8.0_76-release 
+[24909263]  ERROR - llij.ide.plugins.PluginManager - VM: OpenJDK 64-Bit Server VM 
+[24909263]  ERROR - llij.ide.plugins.PluginManager - Vendor: JetBrains s.r.o 
+[24909263]  ERROR - llij.ide.plugins.PluginManager - OS: Linux 
+[24909263]  ERROR - llij.ide.plugins.PluginManager - Last Action: EditorPaste 
+[24909635]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 1;..html/homepage 
+[24909646]  ERROR - terminal.emulator.JediEmulator - Unhandled Control sequence
+parsed                        :ESC[?2004h
+bytes read                    :ESC[ 
+[1191:1191:0116/213555:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+[1191:1191:0116/213605:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+[1191:1191:0116/213614:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+[1191:1191:0116/213643:ERROR:PlatformKeyboardEvent.cpp(93)] Not implemented reached in static bool blink::PlatformKeyboardEvent::currentCapsLockState()
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+console.warn: SDK worker-child started as frozen on unexpected initial document.readyState {"initialDocumentReadyState":"uninitialized","windowLocation":"about:blank"}
+Vector smash protection is enabled.
