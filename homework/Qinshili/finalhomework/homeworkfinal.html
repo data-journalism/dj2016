@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<meta  charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>从数据视角看叙利亚难民问题</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/my.css" rel="stylesheet">
+<script src="js/echarts.min.js" ></script>
+</html>
+
+<body>
+<div class="container-fluid head-bar">
+    <div class="modal-title ">
+        <br/>
+        <br/>
+        <h1 class="modal-title title">从数据视角看叙利亚难民问题</h1>
+    </div>
+</div>
+<div class="col-md-2"></div>
+<div class="col-md-8">
+    <h1 class="title-small">叙利亚难民在各国的分布 </h1>
+    <div class="chart co-md-7" id="chart1"></div>
+    <div class="chart co-md-7" id="chart2"></div>
+    <div class="chart co-md-7" id="chart3"></div>
+    <script src="js/world.js"></script>
+
+    <script type="text/javascript">
+        var chart1=echarts.init(document.getElementById("chart1"));
+        var chart2=echarts.init(document.getElementById("chart2"));
+        var option1={
+            title:{
+                text:"叙利亚难民在各国的分布"
+            } ,
+            tooltip: {},
+            legend: {
+                data:['人数']
+            },
+            xAxis: {
+                data: [
+                    "Armenia",
+                    "Austria",
+                    "Bulgaria",
+                    "Denmark",
+                    "Egypt",
+                    "Germany",
+                    "Iraq",
+                    "Jordan",
+                    "Lebanon",
+                    "Libya",
+                    "Netherlands",
+                    "Sweden",
+                    "Switzerland",
+                    "Turkey"
+                ]
+            },
+            yAxis: {},
+            series: [{
+                name: '人数',
+                type: 'bar',
+                data: [13005,
+                    6653,
+                    8501,
+                    7253,
+                    131892,
+                    66060,
+                    251317,
+                    628816,
+                    1164343,
+                    18648,
+                    8692,
+                    34285,
+                    7182,
+                    1805255
+                ]
+            }]
+        };
+
+        var option2={
+            title:{
+                text:"叙利亚难民在各国的分布"
+            } ,
+            tooltip: {},
+            legend: {
+                data:['人数']
+            },
+
+
+
+            series: [{
+                name: '人数',
+                type: 'pie',
+                radius : '55%',
+                center: ['50%', '50%'],
+                data: [
+                    {value:13005,name:"Armenia"},
+                    {value:6653,name:"Austria"},
+                    {value:8501,name:"Bulgaria"},
+                    {value:7253,name:"Denmark"},
+                    {value:131892,name:"Egypt"},
+                    {value:66060,name:"Germany"},
+                    {value:251317,name:"Iraq"},
+                    {value:628816,name:"Jordan"},
+                    {value:1164343,name:"Lebanon"},
+                    {value:18648,name:"Libya"},
+                    {value:8692,name:"Netherlands"},
+                    {value:34285,name:"Sweden"},
+                    {value:7182,name:"Switzerland"},
+                    {value:1805255,name:"Turkey"}
+                ]
+
+            }]
+        };
+        chart1.setOption(option1);
+        chart2.setOption(option2);
+    </script>
+    <script>
+        var chart3 = echarts.init(document.getElementById('chart3'));
+          chart3.setOption({
+            title:{
+
+            } ,
+              legend: {
+                  orient: 'vertical',
+                  left: 'left',
+                  data:['人数','贫困比例','满意度'],
+                  selectedMode:'single',
+                  selected:{
+                      '人数':true,'贫困比例':false,'满意度':false
+                  }
+              },
+            series: [
+                {
+                    name:'人数',
+                    type:'map',
+                    mapType: 'world',
+                    label: {
+                        normal: {
+                            show: false
+                        },
+                        emphasis: {
+                            show: true
+                        }
+                    },
+                    roam:true,
+                    center: [36,33],
+                    zoom:3,
+                    data: [
+                        {value:13005,name:"Armenia"},
+                        {value:6653,name:"Austria"},
+                        {value:8501,name:"Bulgaria"},
+                        {value:7253,name:"Denmark"},
+                        {value:131892,name:"Egypt"},
+                        {value:66060,name:"Germany"},
+                        {value:251317,name:"Iraq"},
+                        {value:628816,name:"Jordan"},
+                        {value:1164343,name:"Lebanon"},
+                        {value:18648,name:"Libya"},
+                        {value:8692,name:"Netherlands"},
+                        {value:34285,name:"Sweden"},
+                        {value:7182,name:"Switzerland"},
+                        {value:1805255,name:"Turkey"},
+                        {value:'输出国',name:"Syria",itemStyle:{normal:{areaColor:'#0fa'}}}
+                    ]
+
+                },
+                {
+                    name:'贫困比例',
+                    type:'map',
+                    mapType: 'world',
+                    label: {
+                        normal: {
+                            show: false
+                        },
+                        emphasis: {
+                            show: true
+                        }
+                    },
+                    roam:true,
+                    center: [36,33],
+                    zoom:3,
+                    data: [
+                        {value:0.85,name:"Armenia"},
+                        {value:0.73,name:"Austria"},
+                        {value:0.82,name:"Bulgaria"},
+                        {value:0.53,name:"Denmark"},
+                        {value:0.78,name:"Egypt"},
+                        {value:0.35,name:"Germany"},
+                        {value:0.77,name:"Iraq"},
+                        {value:0.90,name:"Jordan"},
+                        {value:0.89,name:"Lebanon"},
+                        {value:0.92,name:"Libya"},
+                        {value:0.53,name:"Netherlands"},
+                        {value:0.42,name:"Sweden"},
+                        {value:0.45,name:"Switzerland"},
+                        {value:0.81,name:"Turkey"},
+                        {value:'输出国',name:"Syria",itemStyle:{normal:{areaColor:'#0fa'}}}
+                    ]
+
+                },
+                {
+                    name:'满意度',
+                    type:'map',
+                    mapType: 'world',
+                    label: {
+                        normal: {
+                            show: false
+                        },
+                        emphasis: {
+                            show: true
+                        }
+                    },
+                    roam:true,
+                    center: [36,33],
+                    zoom:3,
+                    data: [
+                        {value:0.32,name:"Armenia"},
+                        {value:0.41,name:"Austria"},
+                        {value:0.34,name:"Bulgaria"},
+                        {value:0.57,name:"Denmark"},
+                        {value:0.44,name:"Egypt"},
+                        {value:0.61,name:"Germany"},
+                        {value:0.41,name:"Iraq"},
+                        {value:0.32,name:"Jordan"},
+                        {value:0.31,name:"Lebanon"},
+                        {value:0.36,name:"Libya"},
+                        {value:0.56,name:"Netherlands"},
+                        {value:0.61,name:"Sweden"},
+                        {value:0.59,name:"Switzerland"},
+                        {value:0.49,name:"Turkey"},
+                        {value:'输出国',name:"Syria",itemStyle:{normal:{areaColor:'#0fa'}}}
+                    ]
+
+                }
+
+            ],
+            tooltip : {
+                trigger: 'item'
+            },
+
+            visualMap: {
+                type: 'continuous',
+                min: 0,
+                max: 2000000,
+                left: 'left',
+                top: 'bottom',
+                text:['高','低'],           // 文本，默认为数值文本
+                calculable : false
+            },
+            toolbox: {
+                show: true,
+                orient : 'vertical',
+                left: 'right',
+                top: 'center',
+                feature : {
+                    mark : {show: true},
+                    dataView : {show: true, readOnly: false},
+                    restore : {show: true},
+                    saveAsImage : {show: true}
+                }
+            }
+        });
+    </script>
+</div>
+
+</body>
