@@ -1,0 +1,426 @@
+
+
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+</head>
+<body>
+<body bgcolor="#d0d0d0">
+<h1> 初探中国艺术品交易市场  </h1>
+
+<h2> 选题价值：  </h2>
+<p> （1）创新性：文物与艺术品市场一直以来似乎游离在大众的视野之外，除了专业性杂志杂志与定向受众的新媒体等，一般很少会有媒体关注。艺术品交易这个具有小众化、封闭化的领域很大程度上决定了这个选题具有比较高的创新性，也可以说是找到了普通媒体报道内容的一个“盲点”。
+<br />
+    （2）重要性：近年来我国越来越重视文化自信和文化软实力。关于评价文化自信以及文化软实力，设置了很多诸如科研经费投入比例等方面的评价指标。然而，艺术品拍卖市场中的各项数据也可以成为评估文化产业以及文化软实力发展的一项指标，比如在中国的艺术品交易市场，拍卖的艺术品主要分为“中国书画”、“瓷器杂项”、“油画及当代艺术三大品类”，其中“中国书画”、“瓷器杂项”这两个主要由中国艺术品构成的部分，以及“油画及当代艺术”主要由外国艺术品构成的部分之间的比例的波动可以反映出一种艺术认同和文化自信。
+        但事实上，在大众的视野范围内，文物与艺术品拍卖市场还是一块神秘而陌生的领域。并且我们常常有这样的刻板印象；艺术品往往是无用的。但有时候，对“无用”的消费恰恰反映了一个国家的经济发展水平和艺术鉴赏水平。拍卖市场对于 反映这些情况还是非常具有代表性的。研究这方面的内容，不仅有利于向大众揭开拍卖市场的神秘面纱，还可以从中窥见我国经济发展与文化发展的一个缩影。
+<br />
+    （3）可行性：以往拍卖行的估价和买卖信息仅在小范围内公开，但随着互联网的出现，国内外都有大型的文物和艺术品拍卖信息网站，并且网站的建设也比较健全，拍卖图册也公开发布在网站上，这为我们进一步的研究提供了可行性。
+</p>
+
+<h2> 数据来源  </h2>
+<p>雅昌艺术市场监测中心http://amma.artron.net/service.php<p>
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <meta charset="utf-8">
+      <title>echarts</title>
+        <!-- 引入 echarts.js -->
+      <script src="echarts.js"></script>
+      <script src="china.js"></script>
+  </head>
+  <body>
+      <div id="first"  style="width: 800px;height:530px;"></div>
+      <div id="second"  style="width: 800px;height:530px;"></div>
+      <div id="third"  style="width: 800px;height:530px;"></div>
+      <div id="fourth"  style="width: 800px;height:530px;"></div>
+      <div id="fifth"  style="width: 800px;height:530px;"></div>
+  </body>
+  </html>
+  <script type="text/javascript">
+
+          var firstChart = echarts.init(document.getElementById("first"));
+          var option = {
+                      title: {
+                          text: '2005至2015中国艺术品成交总额（百万）'
+                      },
+                      tooltip: {},
+                      legend: {
+                          data:['金额']
+                      },
+                      xAxis: {
+                          data: ["2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015"]
+                      },
+                      yAxis: {},
+                      series: [{
+                          name: '金额',
+                          type: 'bar',
+                          data: [15.59, 16.55, 25.71, 20.42, 23.15, 59.65, 96.85, 63.27, 64.46, 59, 80]
+                      }]
+                  };
+
+    firstChart.setOption(option);
+
+    var secondChart = echarts.init(document.getElementById("second"));
+    var option = {
+        title: {
+            text: '中国艺术品市场三大品类成交图'
+        },
+        tooltip : {
+            trigger: 'axis'
+        },
+        legend: {
+            data:['中国书画','瓷器杂项','油画及当代艺术']
+        },
+        toolbox: {
+            feature: {
+                saveAsImage: {}
+            }
+        },
+        grid: {
+            left: '3%',
+            right: '4%',
+            bottom: '3%',
+            containLabel: true
+        },
+        xAxis : [
+            {
+                type : 'category',
+                boundaryGap : false,
+                data : ['2007春','2007秋','2008春','2008秋','2009春','2009秋','2010春','2010秋','2011春','2011秋','2012春','2012秋','2013春','2013秋','2014春','2014秋','2015春','2015秋','2016春']
+            }
+        ],
+        yAxis : [
+            {
+                type : 'value'
+            }
+        ],
+        series : [
+            {
+                name:'中国书画',
+                type:'line',
+                stack: '总量',
+                areaStyle: {normal: {}},
+                data:[47.31, 45, 46.43, 50.16, 50.62, 53.35, 53.71, 48.29, 50.41, 59.33, 60.05, 59.01, 52.09, 49, 48.93, 35.42, 31.7, 34.83, 27.3]
+            },
+            {
+                name:'瓷器杂项',
+                type:'line',
+                stack: '总量',
+                areaStyle: {normal: {}},
+                data:[35.25, 38, 35.71, 26.59, 28.45, 24.33, 27.79, 27.72, 31.18, 19.92, 27.22, 24.34, 16.97, 22, 21.26, 37.43, 33.5, 28.42, 29.32]
+            },
+            {
+                name:'油画及当代艺术',
+                type:'line',
+                stack: '总量',
+                areaStyle: {normal: {}},
+                data:[11.32, 10, 17.85, 10.65, 11.54, 10.97, 9.59, 8.29, 9.54, 8.62, 8.28, 7.8, 11.52, 10, 13.25, 27.14, 24.29, 26.49, 29.41]
+            }
+        ]
+    };
+
+  secondChart.setOption(option);
+
+  var thirdChart = echarts.init(document.getElementById("third"));
+  var var xData = function() {
+      var data = [];
+      for (var i = 2004; i < 2015; i++){
+          data.push(i + "年");
+      }
+      return data;
+  }();
+
+  option = {
+      backgroundColor: "#344b58",
+      "title": {
+          "text": "中国艺术品市场上拍与成交件数",
+          "subtext": "数据来源：雅昌艺术市场监测中心",
+          x: "8%",
+
+          textStyle: {
+              color: '#fff',
+              fontSize: '22'
+          },
+          subtextStyle: {
+              color: '#90979c',
+              fontSize: '16',
+
+          },
+      },
+      "tooltip": {
+          "trigger": "axis",
+          "axisPointer": {
+              "type": "shadow",
+              textStyle: {
+                  color: "#fff"
+              }
+
+          },
+      },
+      "grid": {
+          "borderWidth": 0,
+          "top": 110,
+          "bottom": 95,
+          textStyle: {
+              color: "#fff"
+          }
+      },
+      "legend": {
+          x: '4%',
+          top: '11%',
+          textStyle: {
+              color: '#90979c',
+          },
+          "data": ['上拍件数', '成交件数', '成交比例']
+      },
+
+
+      "calculable": true,
+      "xAxis": [{
+          "type": "category",
+          "axisLine": {
+              lineStyle: {
+                  color: '#90979c'
+              }
+          },
+          "splitLine": {
+              "show": false
+          },
+          "axisTick": {
+              "show": false
+          },
+          "splitArea": {
+              "show": false
+          },
+          "axisLabel": {
+              "interval": 0,
+
+          },
+          "data": xData,
+      }],
+      "yAxis": [{
+          "type": "value",
+          "splitLine": {
+              "show": false
+          },
+          "axisLine": {
+              lineStyle: {
+                  color: '#90979c'
+              }
+          },
+          "axisTick": {
+              "show": false
+          },
+          "axisLabel": {
+              "interval": 0,
+
+          },
+          "splitArea": {
+              "show": false
+          },
+
+      }],
+      "dataZoom": [{
+          "show": true,
+          "height": 30,
+          "xAxisIndex": [
+              0
+          ],
+          bottom: 30,
+          "start": 10,
+          "end": 80,
+          handleIcon: 'path://M306.1,413c0,2.2-1.8,4-4,4h-59.8c-2.2,0-4-1.8-4-4V200.8c0-2.2,1.8-4,4-4h59.8c2.2,0,4,1.8,4,4V413z',
+          handleSize: '110%',
+          handleStyle:{
+              color:"#d3dee5",
+
+          },
+             textStyle:{
+              color:"#fff"},
+             borderColor:"#90979c"
+
+
+      }, {
+          "type": "inside",
+          "show": true,
+          "height": 15,
+          "start": 1,
+          "end": 35
+      }],
+      "series": [{
+              "name": "上拍件数",
+              "type": "bar",
+              "stack": "总量",
+              "barMaxWidth": 35,
+              "barGap": "10%",
+              "itemStyle": {
+                  "normal": {
+                      "color": "rgba(255,144,128,1)",
+                      "label": {
+                          "show": true,
+                          "textStyle": {
+                              "color": "#fff"
+                          },
+                          "position": "insideTop",
+                          formatter: function(p) {
+                              return p.value > 0 ? (p.value) : '';
+                          }
+                      }
+                  }
+              },
+              "data": [
+                  709,
+                  193570,
+                  227313,
+                  218167,
+                  234494,
+                  241331,
+                  422820,
+                  663653,
+                  558903,
+                  642397,
+                  2484,
+                  4078
+              ],
+          },
+
+          {
+              "name": "成交件数",
+              "type": "bar",
+              "stack": "总量",
+              "itemStyle": {
+                  "normal": {
+                      "color": "rgba(0,191,183,1)",
+                      "barBorderRadius": 0,
+                      "label": {
+                          "show": true,
+                          "position": "top",
+                          formatter: function(p) {
+                              return p.value > 0 ? (p.value) : '';
+                          }
+                      }
+                  }
+              },
+              "data": [
+                  327,
+                  113302,
+                  111968,
+                  129626,
+                  127105,
+                  146778,
+                  244480,
+                  327212,
+                  270567,
+                  295039,
+                  381,
+                  220
+              ]
+          }, {
+              "name": "成交比例",
+              "type": "line",
+              "stack": "总量",
+              symbolSize:10,
+              symbol:'circle',
+              "itemStyle": {
+                  "normal": {
+                      "color": "rgba(252,230,48,1)",
+                      "barBorderRadius": 0,
+                      "label": {
+                          "show": true,
+                          "position": "top",
+                          formatter: function(p) {
+                              return p.value > 0 ? (p.value) : '';
+                          }
+                      }
+                  }
+              },
+              "data": [
+                  1036,
+                  59,
+                  49,
+                  59,
+                  54,
+                  61,
+                  58,
+                  49,
+                  48,
+                  46,
+                  2685,
+                  4298
+              ]
+          },
+      ]
+  }
+     thirdChart.setOption(option);
+
+     var fourthChart = echarts.init(document.getElementById("fourth"));
+     var option = {
+         title: {
+             text: '2005-2013中国艺术品拍卖公司数量（个）'
+         },
+         tooltip: {},
+         legend: {
+             data:['数量（个）']
+         },
+         xAxis: {
+             data: ["2005","2006","2007","2008","2009","2010","2011","2012","2013"]
+         },
+         yAxis: {},
+         series: [{
+             name: '数量（个）',
+             type: 'bar',
+             data: [108, 162, 143, 146, 148, 221, 357, 360, 387]
+         }]
+     };
+     fourthChart.setOption(option);
+
+     var fifthChart = echarts.init(document.getElementById("fifth"));
+     var option = {
+         series : [
+             {
+                 name: '2015纯艺术品成交总额top10',
+                 type: 'pie',
+                 radius: '55%',
+                 data:[
+                     {value:2042.8, name:'北京'},
+                     {value:1157.2, name:'香港'},
+                     {value:440.3, name:'上海'},
+                     {value:298.8, name:'广州'},
+                     {value:222.5, name:'杭州'},
+                     {value:159.2, name:'南京'},
+                     {value:70.3, name:'天津'},
+                     {value:68.1, name:'台北'},
+                     {value:63.9, name:'济南'},
+                     {value:51.7, name:'郑州'}
+                 ]
+             }
+         ]
+     };
+     fifthChart.setOption(option);
+     </script>
+     </body>
+     </html>
+
+    </script>
+
+<h2> 数据分析： </h2>
+<ol>
+<li>上述表格体现，中国艺术品成交总额2005年至2007年稳步增长，2008年开始有所回落，2009至2011年增长迅猛，之后又有所回落，但是总体正在不断增长。成交总额的变化趋势与中国近年的经济走势基本稳步，可以初步判定二者之间有所关联。但是从数值上看，排除物价等因素影响，数值的变化也反映出人们对于艺术品的心理预期价值不断增长，进而体现出物质文化追求水平的提高。</li>
+<li>中国艺术品市场三大品类成交额占比当中，中国书画所占比重总体减少，瓷器杂项整体走势较为平稳，油画及当代艺术比重总体增加，在2013年后增长尤其迅猛。中国书画占比由️原来的占绝对优势到现在中国书画、瓷器杂项、油画及当代艺术“三足鼎立”。
+<br/>三大品类变化一方面反映出了中国艺术品市场的开放化、国际化趋势，另一方面也反映出了对于国人对于世界艺术品以及当代艺术的认同度增加。</li>
+<li>上拍件数与成交件数总体都在不断增长，但是成交比例整体呈下降趋势，一方面可以体现出国人对于艺术品的态度越来越理性，另一方面也可以体现出艺术品交易市场的发展，侧面反映出文化软实力的增强。</li>
+<li>成交额与经济实力与文化底蕴密切相关，还与开放程度、地域特色以及艺术品市场规模有密切关系。当然数据也不能说明一切，有时候地区的艺术品成交额的悬殊差异也取决于艺术品的等级，单件的高级艺术品价格可能占整个总额的很大比重。</li>
+</ol>
+
+<br />
+</p>
+
+<h2> 数据局限性分析：</h2>
+<p> 局限性评估：数据主要来源雅昌艺术品市场监测中心属于北京雅昌文化有限公司。数据来源受商业资本影响，也可能存在一种导向性作用。比如说我们在收集数据的过程当中，部分年份的数据没有在报告中展现，只能通过其他年份报告数据进行推算，但是调查中发现，这样的年份的数据，通过“增长率增减”、“总额差作比”等不同的方式来计算，结果竟然不同。可以初步猜测这样的年份里的数据有刻意隐瞒的嫌疑。
+  </p>
+
+<h3> 作者：jinyinchongzu</h3>
+<h3> 指导老师：王成军  </h3>
+</body>
