@@ -1,0 +1,108 @@
+void setup(){
+  size(500,400);
+};
+
+void draw(){
+  background(255);
+  
+  ellipseMode(CENTER);
+  rectMode(CENTER); 
+
+if (mousePressed) {
+  
+//add somthing special and interesting
+//cloud
+fill(176, 224, 230);
+beginShape();
+vertex(50, 180);
+bezierVertex(50, 150, 80, 120, 132, 150);
+bezierVertex(150, 115, 210, 135, 200, 160);
+bezierVertex(270, 175, 230, 235, 170, 220);
+bezierVertex(170, 250, 80, 255, 70, 220);
+bezierVertex(20, 240, 25, 170, 50, 180);
+endShape();
+//moon
+fill(255, 250, 190);
+beginShape();
+vertex(130, 60);
+bezierVertex(250, 70, 210, 200, 130, 200);
+bezierVertex(150, 190, 200, 115, 130, 60);
+endShape();
+
+//now that's something serious
+// body
+stroke(0);
+fill(255, 0, 0);
+ellipse(250, 225, 120, 250);
+// head
+fill(192);
+ellipse(250, 100, 100, 100);
+fill(255, 0, 255);
+// eyes
+fill(255);
+ellipse(230, 85, 30, 15);
+ellipse(270, 85, 30, 15);
+// ears
+fill(192);
+triangle(185, 75, 200, 100, 210, 55);
+triangle(315, 75, 300, 100, 290, 55);
+// hair
+triangle(250, 75, 240, 30, 260, 30);
+line(250, 10, 250, 110);
+// mouth
+fill(255);
+quad(230, 110, 270, 110, 260, 140, 240, 140);
+// hands
+fill(255);
+ellipse(150, 160, 20, 20);
+ellipse(350, 160, 20, 20);
+// arms
+line(200,180, 160, 165);
+line(300,180, 340, 165);
+// legs
+line(200, 375, 200, 300);
+line(300, 375, 300, 300);
+//wist
+fill(65, 105, 225);
+quad(190, 220, 190, 240, 310, 240, 310, 220);
+// neck tie
+stroke(0 ,0, 0);
+fill(255);
+triangle(mouseX-10, mouseY, mouseX+10, mouseY, mouseX, mouseY-50);
+} else { 
+// body
+stroke(0);
+fill(255);
+ellipse(250, 225, 120, 250);
+// head
+fill(255);
+ellipse(250, 100, 100, 100);
+fill(255, 0, 255);
+// eyes
+fill(0);
+ellipse(230, 85, 30, 15);
+ellipse(270, 85, 30, 15);
+// ears
+fill(255);
+triangle(185, 75, 200, 100, 210, 55);
+triangle(315, 75, 300, 100, 290, 55);
+// hair
+triangle(250, 75, 240, 30, 260, 30);
+line(250, 10, 250, 110);
+// mouth
+quad(230, 110, 270, 110, 260, 140, 240, 140);
+// hands
+ellipse(150, 200, 20, 20);
+ellipse(350, 200, 20, 20);
+// arms
+line(200,180, 160, 195);
+line(300,180, 340, 195);
+// legs
+line(150, 350, 200, 300);
+line(350, 350, 300, 300);
+// neck tie
+stroke(0 ,0, 0);
+fill(0);
+triangle(mouseX-10, mouseY, mouseX+10, mouseY, mouseX, mouseY-50);
+}
+}
