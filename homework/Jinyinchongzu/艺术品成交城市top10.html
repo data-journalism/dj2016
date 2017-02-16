@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <script src="echarts.js"></script>
+</head>
+<body>
+    <div id="main" style="width: 600px;height:400px;"></div>
+    <script type="text/javascript">
+        var myChart = echarts.init(document.getElementById('main'));
+
+var option = {
+    series : [
+        {
+            name: '2015纯艺术品成交总额top10',
+            type: 'pie',
+            radius: '55%',
+            data:[
+                {value:2042.8, name:'北京'},
+                {value:1157.2, name:'香港'},
+                {value:440.3, name:'上海'},
+                {value:298.8, name:'广州'},
+                {value:222.5, name:'杭州'},
+                {value:159.2, name:'南京'},
+                {value:70.3, name:'天津'},
+                {value:68.1, name:'台北'},
+                {value:63.9, name:'济南'},
+                {value:51.7, name:'郑州'}
+            ]
+        }
+    ]
+};
+myChart.setOption(option);
+  </script>
+</body>
+</html>
