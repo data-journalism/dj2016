@@ -1,0 +1,124 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jan 20 16:06:46 2017
+
+@author: John
+"""
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
+import xlwt
+ 
+ 
+PositionDict = dict()
+f=xlwt.Workbook()
+sheet1 = f.add_sheet(u'sheet1',cell_overwrite_ok=True)
+sheet1.write(0,0,'jobName')
+sheet1.write(0,1,'jobSite')
+sheet1.write(0,2,'jobTime')
+sheet1.write(0,3,'jobCompany')
+sheet1.write(0,4,'jobMoney')
+sheet1.write(0,5,'jobDemand')
+sheet1.write(0,5,'jobDescribe')
+sheet1.write(0,5,'jobSpecial')
+indexofrow=1
+ 
+def getLinksOfPosition(BaseUrl):
+    html = urlopen(BaseUrl)
+    bsObj = BeautifulSoup(html,"lxml")
+ 
+    PositionList = bsObj.findAll("div",{"class":"menu_sub dn"})
+ 
+    for positions in PositionList:
+ 
+        print ("------get all job!------")
+        PositionLinkList = positions.find("dd").findAll("a")
+ 
+        for PositionLink in PositionLinkList:
+			#print("-"*30)
+            link = PositionLink.attrs['href']
+            name = PositionLink.string
+			#print (link)
+            if name!='':
+                PositionDict[name] = "https:"+link
+			#print (PositionDict[name])
+			#print (name)
+ 
+def getPositionInfo(InfoUrl,page):
+
+    html = urlopen(InfoUrl)
+    bsObj = BeautifulSoup(html,"lxml")
+    global indexofcolumn
+    global indexofrow
+ 
+    print ("-"*30)
+	#print (bsObj.prettify())
+ 
+    JobsList = bsObj.findAll("li",{"class":{"con_list_item"}})
+ 
+    for job in JobsList:
+        indexofcolumn=0
+        jobName = job.h2
+        jobSite = job.em
+        jobTime = job.find("span",{"class":{"format-time"}})
+        jobCompany = job.find("div",{"class":{"company"}}).div.a.string
+        jobMoney = job.find("span",{"class":{"money"}})
+        jobDemand = job.find("div",{"class":{"li_b_l"}})
+        jobDescibe = job.find("div",{"class":{"industry"}})
+        jobSpecial = job.find("div",{"class":{"li_b_r"}})
+        
+        #写入内容
+        sheet1.write(indexofrow,indexofcolumn,jobName.get_text("|", strip=True))
+        indexofcolumn=(indexofcolumn+1)
+        
+        
+        sheet1.write(indexofrow,indexofcolumn,jobSite.get_text("|", strip=True))
+        indexofcolumn=indexofcolumn+1
+        
+        
+        sheet1.write(indexofrow,indexofcolumn,jobTime.get_text("|", strip=True))
+        indexofcolumn=indexofcolumn+1
+        
+        
+        sheet1.write(indexofrow,indexofcolumn,jobCompany)
+        indexofcolumn=indexofcolumn+1
+		
+        f=jobMoney.get_text("|", strip=True)
+        sheet1.write(indexofrow,indexofcolumn,f)
+        indexofcolumn=indexofcolumn+1
+        
+        
+        sheet1.write(indexofrow,indexofcolumn,jobDemand.get_text("|",strip=True))
+        indexofcolumn=indexofcolumn+1
+        
+       
+        sheet1.write(indexofrow,indexofcolumn,jobDescibe.get_text("|", strip=True))
+        indexofcolumn=indexofcolumn+1
+        
+        
+        sheet1.write(indexofrow,indexofcolumn,jobSpecial.get_text("|", strip=True))
+        indexofcolumn=indexofcolumn+1
+        indexofrow+=1
+        
+    print("-----next page!-----")
+    nextLinkList = bsObj.findAll("div",{"class":"pager_container"})
+    Link = nextLinkList[0].findAll("a")[-1:][0]["href"]
+    if page>=0:
+        if Link == "javascript:;":
+                print("end of job info")
+                pass
+        else:
+                Link = "https:"+Link
+                print (Link)
+                getPositionInfo(Link,page-1)
+    
+ 
+ 
+ 
+ 
+if __name__ == '__main__':
+    getLinksOfPosition("https://www.lagou.com/")
+    key=input("Please input the position:")
+    getPositionInfo(PositionDict[key],5)
+    f.save("d:\hauiscvnsia.xls")
+	#1234567890
+	#getPositionInfo("https://www.lagou.com/zhaopin/Python/")
