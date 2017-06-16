@@ -61,6 +61,7 @@ https://data-journalism.github.io/dj2016/attendance.htm
 6. 中国数据新闻工作坊培训手册 [http://djchina.org/2015/09/01/china-data-journalism-training-content/](http://djchina.org/2015/09/01/china-data-journalism-training-content/)
 7. Doing Journalism with Data: First Steps, Skills and Tools  by Paul Bradshaw, Alberto Cairo, Steve Doig, Simon Rogers, Nicolas Kayser-Bril http://learno.net/classroom/doing-journalism-with-data-first-steps-skills-and-tools/
 8. datajournalismhandbook [http://datajournalismhandbook.org/1.0/en/](http://datajournalismhandbook.org/1.0/en/)
+9. 利用南京大学校内镜像网站，可以下载到Anaconda的全系列版本，速度非常快 https://mirrors.nju.edu.cn/anaconda/archive/
 
 # 想要提问，点下面！
 
